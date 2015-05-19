@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    is_a (0.0.1)
-      rails (~> 4.2.1)
+    is_a_validator (0.0.1)
+      rails (~> 4.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -102,5 +102,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  is_a!
+  is_a_validator!
   sqlite3
