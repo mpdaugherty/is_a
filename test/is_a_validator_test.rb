@@ -6,7 +6,7 @@ class IsAValidatorTest < ActiveSupport::TestCase
     account_owner = AccountOwner.create(account: not_an_account)
 
     assert_nil account_owner.id, 'account_owner should not have saved with an invalid account'
-    assert_not_nil account_owner.errors[:account], 'account_owner should have an error on account'
+    assert_not_empty account_owner.errors[:account], 'account_owner should have an error on account'
   end
 
   test 'AccountOwner should save if `account` implements Account' do
@@ -14,6 +14,6 @@ class IsAValidatorTest < ActiveSupport::TestCase
     account_owner = AccountOwner.create(account: account)
 
     assert_not_nil account_owner.id, 'account_owner should have saved with a valid account'
-    assert_nil account_owner.errors[:account], 'account_owner should not have an error on account'
+    assert_empty account_owner.errors[:account], 'account_owner should not have an error on account'
   end
 end
