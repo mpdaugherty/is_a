@@ -12,12 +12,17 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/mpdaugherty/is_a_validator"
   s.summary     = "Adds an \"is_a\" validator to validate polymorphic relations."
   s.description = "Adds an \"is_a\" validator to validate polymorphic relations."
+  s.platform    = Gem::Platform::RUBY
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.require_paths = ['lib']
+
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 5"
-
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency 'appraisal', '~> 2.3'
+  s.add_development_dependency 'bundler', '~> 2.1'
+  s.add_development_dependency 'rake', '~> 13.0'
+  s.add_development_dependency 'rspec', '~> 3.9'
+  s.add_development_dependency 'rubocop', '~> 0.93'
 end

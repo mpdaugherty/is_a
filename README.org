@@ -1,0 +1,28 @@
+* IsAValidator
+
+Provides an ActiveRecord validator that ensures a polymorphic association
+
+ * is an instance of specific class or one of its subclasses or
+ * implements a specific Concern
+
+** Usage:
+
+#+BEGIN_SRC ruby
+belongs_to :account, polymorphic: true
+validates :account, is_a: Account
+#+END_SRC
+
+* Development & Testing
+
+Ruby version is managed by =rvm= & =.rvmrc=
+
+#+BEGIN_SRC ruby
+gem install bundler
+bundle install
+bundle exec appraisal install
+bundle exec appraisal rake test
+#+END_SRC
+
+* License
+
+IsAValidator is released under an MIT-LICENSE. Use it how you see fit.
