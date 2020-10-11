@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.description = 'Adds an "is_a" validator to validate polymorphic relations.'
   s.platform    = Gem::Platform::RUBY
   s.license     = 'MIT'
+  s.required_ruby_version = '>= 2.4'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
   s.require_paths = ['lib']
