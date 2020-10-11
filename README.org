@@ -32,7 +32,10 @@ Ruby version is managed by =rvm= & =.rvmrc=
 ** Tagging & Deploying a new version
 
 #+BEGIN_SRC shell
+  # Update lib/is_a_validator/version.rb
   gem build is_a_validator.gemspec
+  git tag -a vX.X -m "Releasing vX.X"
+  git push origin vX.X
 #+END_SRC
 
 * License
