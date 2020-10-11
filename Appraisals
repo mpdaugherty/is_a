@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 appraise 'activemodel_4.2' do
   gem 'activemodel', '~> 4.2', require: 'active_model'
 end
