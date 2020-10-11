@@ -29,6 +29,8 @@ bundle exec appraisal rspec
 bundle exec rdoc
 #+END_SRC
 
+** Tagging & Deploying a new version
+
 * License
 
 IsAValidator is released under an MIT-LICENSE. Use it how you see fit.

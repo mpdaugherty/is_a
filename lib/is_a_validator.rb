@@ -9,7 +9,7 @@ class IsAValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     required_class = options[:with]
     unless value.nil? || value.is_a?(required_class)
-      record.errors[attribute] << "#{attribute} must be an instance of #{required_class.name}"
+      record.errors[attribute] << "must be an instance of #{required_class.name}"
     end
   end
 end
