@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This validates that a polymorphic association implements a specific Concern or is a specific class
 #
 # Usage:
