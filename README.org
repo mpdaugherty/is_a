@@ -16,20 +16,24 @@ validates :account, is_a: Account
 
 Ruby version is managed by =rvm= & =.rvmrc=
 
-#+BEGIN_SRC ruby
-gem install bundler
-bundle install
-bundle exec appraisal install
-bundle exec appraisal rspec
+#+BEGIN_SRC shell
+  gem install bundler
+  bundle install
+  bundle exec appraisal install
+  bundle exec appraisal rspec
 #+END_SRC
 
 ** Generating Docs
 
-#+BEGIN_SRC ruby
-bundle exec rdoc
+#+BEGIN_SRC shell
+  bundle exec rdoc
 #+END_SRC
 
 ** Tagging & Deploying a new version
+
+#+BEGIN_SRC shell
+  gem build is_a_validator.gemspec
+#+END_SRC
 
 * License
 

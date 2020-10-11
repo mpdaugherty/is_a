@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'active_model'
+
 # This validates that a polymorphic association implements a specific Concern or is a specific class
 #
 # Usage:

@@ -18,10 +18,10 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.required_ruby_version = '>= 2.4'
 
-  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
+  s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.org']
   s.require_paths = ['lib']
 
-  s.test_files = Dir['test/**/*']
+  s.add_dependency 'activemodel', '>= 4.2'
 
   s.add_development_dependency 'appraisal', '~> 2.3'
   s.add_development_dependency 'bundler', '~> 2.1'
