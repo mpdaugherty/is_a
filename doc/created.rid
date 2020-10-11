@@ -1,0 +1,26 @@
+Sun, 11 Oct 2020 14:24:26 +0800
+./test/dummy/log/test.log	Tue, 06 Oct 2020 21:20:02 +0800
+./gemfiles/activerecord_6.0.gemfile.lock	Sun, 11 Oct 2020 13:51:45 +0800
+./gemfiles/activerecord_6.0.0.gemfile	Sat, 10 Oct 2020 10:30:05 +0800
+./gemfiles/activerecord_4.2.0.gemfile.lock	Sat, 10 Oct 2020 10:39:15 +0800
+./gemfiles/activerecord_4.2.0.gemfile	Sat, 10 Oct 2020 10:30:05 +0800
+./gemfiles/activemodel_4.2.gemfile	Sun, 11 Oct 2020 13:51:43 +0800
+./gemfiles/activemodel_4.2.gemfile.lock	Sun, 11 Oct 2020 13:51:44 +0800
+./gemfiles/activerecord_6.0.gemfile	Sun, 11 Oct 2020 13:51:43 +0800
+./gemfiles/activerecord_5.2.2.gemfile.lock	Sat, 10 Oct 2020 10:39:15 +0800
+./gemfiles/activemodel_5.2.gemfile.lock	Sun, 11 Oct 2020 13:51:44 +0800
+./gemfiles/activerecord_5.2.2.gemfile	Sat, 10 Oct 2020 10:30:05 +0800
+./gemfiles/activemodel_5.2.gemfile	Sun, 11 Oct 2020 13:51:43 +0800
+./gemfiles/activerecord_6.0.0.gemfile.lock	Sat, 10 Oct 2020 10:46:02 +0800
+./spec/spec_helper.rb	Sun, 11 Oct 2020 13:51:55 +0800
+./spec/is_a_spec.rb	Sun, 11 Oct 2020 14:21:14 +0800
+./is_a_validator-1.0.0.gem	Tue, 06 Oct 2020 12:48:24 +0800
+./Rakefile	Sun, 11 Oct 2020 13:55:09 +0800
+./lib/is_a_validator/version.rb	Tue, 06 Oct 2020 12:48:24 +0800
+./lib/is_a_validator.rb	Sun, 11 Oct 2020 14:20:52 +0800
+./Gemfile	Sat, 10 Oct 2020 10:22:12 +0800
+./Gemfile.lock	Sat, 10 Oct 2020 10:28:44 +0800
+./README.org	Sun, 11 Oct 2020 13:57:39 +0800
+./MIT-LICENSE	Tue, 06 Oct 2020 12:48:24 +0800
+./Appraisals	Sun, 11 Oct 2020 13:51:19 +0800
+./SECURITY.md	Tue, 06 Oct 2020 13:01:45 +0800
